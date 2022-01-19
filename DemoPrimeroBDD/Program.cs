@@ -32,7 +32,7 @@ namespace DemoPrimeroBDD
             context.Libros.Attach(libro2);
             context.Libros.Remove(libro2);
             context.SaveChanges();
-            Console.WriteLine("Pulse enter para continual.....");
+            Console.WriteLine("Pulse enter para continuar.....");
             Console.ReadLine();
         }
     }

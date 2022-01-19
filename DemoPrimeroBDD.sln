@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoPrimeroBDD", "DemoPrimeroBDD\DemoPrimeroBDD.csproj", "{2AD70961-A3A7-40BF-ABE6-976A4694A63F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IU_Libros", "IU_Libros\IU_Libros.csproj", "{29EDB022-77C6-447B-BE1B-7B78DCD2E201}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IULibros", "IU_Libros\IULibros.csproj", "{29EDB022-77C6-447B-BE1B-7B78DCD2E201}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

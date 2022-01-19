@@ -71,10 +71,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>IU_LibrosModel1.tt</DependentUpon>
     </Compile>
-    <Compile Include="IU_LibrosModel1.Designer.cs">
+    <Compile Include="IULibrosModel1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>IU_LibrosModel1.edmx</DependentUpon>
+      <DependentUpon>IULibrosModel1.edmx</DependentUpon>
     </Compile>
     <Compile Include="Libros.cs">
       <DependentUpon>IU_LibrosModel1.tt</DependentUpon>
@@ -96,12 +96,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EntityDeploy Include="IU_LibrosModel1.edmx">
+    <EntityDeploy Include="IULibrosModel1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>IU_LibrosModel1.Designer.cs</LastGenOutput>
+      <LastGenOutput>IULibrosModel1.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="IU_LibrosModel1.edmx.diagram">
-      <DependentUpon>IU_LibrosModel1.edmx</DependentUpon>
+    <None Include="IULibrosModel1.edmx.diagram">
+      <DependentUpon>IULibrosModel1.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -121,11 +121,11 @@
     <Content Include="IU_LibrosModel1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>IU_LibrosModel1.Context.cs</LastGenOutput>
-      <DependentUpon>IU_LibrosModel1.edmx</DependentUpon>
+      <DependentUpon>IULibrosModel1.edmx</DependentUpon>
     </Content>
     <Content Include="IU_LibrosModel1.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>IU_LibrosModel1.edmx</DependentUpon>
+      <DependentUpon>IULibrosModel1.edmx</DependentUpon>
       <LastGenOutput>IU_LibrosModel1.cs</LastGenOutput>
     </Content>
   </ItemGroup>
